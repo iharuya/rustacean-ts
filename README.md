@@ -1,6 +1,6 @@
 # Rustacean TS
 
-A library to write TypeScript like Rust 😇
+A library to write Rust-like TypeScript 😇
 
 ## Features
 - `Result`
