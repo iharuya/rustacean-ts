@@ -1,3 +1,5 @@
+// ref: https://doc.rust-lang.org/src/core/result.rs.html
+
 interface BaseResult<T, E> {
   /////////////////////////////////////////////////////////////////////////
   // Querying the contained values
