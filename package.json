@@ -8,7 +8,7 @@
     "build": "tsc",
     "format": "biome format src --write",
     "lint": "biome lint src",
-    "fix": "biome check --apply src"
+    "fix": "biome check --write src"
   },
   "keywords": [],
   "author": "",

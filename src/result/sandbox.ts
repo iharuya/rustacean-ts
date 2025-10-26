@@ -1,5 +1,5 @@
-import { PathOrFileDescriptor, readFileSync } from "fs";
-import { Result, err, match, ok } from ".";
+import { type PathOrFileDescriptor, readFileSync } from "node:fs";
+import { err, match, ok, type Result } from ".";
 
 function myReadFileSync(path: PathOrFileDescriptor): Result<string> {
 	try {
