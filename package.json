@@ -8,15 +8,15 @@
     "build": "tsc",
     "format": "biome format src --write",
     "lint": "biome lint src",
-    "fix": "biome check --apply src"
+    "fix": "biome check --write src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@biomejs/biome": "1.4.1",
-    "@types/node": "^20.10.6",
+    "@biomejs/biome": "2.3.0",
+    "@types/node": "^24.9.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.9.3"
   }
 }
